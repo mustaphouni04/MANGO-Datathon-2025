@@ -6,5 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "lightgbm>=4.6.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
     "torch>=2.9.1",
 ]
