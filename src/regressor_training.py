@@ -172,5 +172,5 @@ for epoch in range(num_epochs):
 
     print(f"Epoch {epoch+1}/{num_epochs} | Train Loss: {train_loss:.6f} | Val Loss: {val_loss:.6f}")
 
-torch.save(model.state_dict(), "ffn.pt")
+torch.save(model.state_dict(), "models/ffn.pt")
 
