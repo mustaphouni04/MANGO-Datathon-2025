@@ -124,7 +124,7 @@ class FFNRegressor(nn.Module):
 
 feat_dim = X_test.shape[1]
 model = FFNRegressor(feat_dim)
-model.load_state_dict(torch.load("ffn.pt", map_location="cpu"))
+model.load_state_dict(torch.load("models/ffn.pt", map_location="cpu"))
 model.eval()
 
 # ------------------------------
